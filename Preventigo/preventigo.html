@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="CSS/preventigo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-fluid" id="home">
+        <div class="wrapper row">
+            <h4 class="col-xs-12 col-sm-6">Welcome To Our <span>Company</span></h4>
+            <div class="social-network col-xs-12 col-sm-6">
+                <ul class="social-icon pull-right">
+                    <li>
+                        <a><img src="IMAGES/fb.png" /></a>
+                    </li>
+                    <li>
+                        <a><img src="IMAGES/rss.png" /></a>
+                    </li>
+                    <li>
+                        <a><img src="IMAGES/google-plus.png" /></a>
+                    </li>
+                    <li>
+                        <a><img src="IMAGES/twitter.png" /></a>
+                    </li>
+                    <li>
+                        <a><img src="IMAGES/instagram.png" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- code for login and sign up form button on right corner -->
+    <div class="login">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">LOGIN TO TEST YOUR PRODUCT</button>
+    </div>
+    <img src="IMAGES/burger-menu.png" class="burger menu-display" onclick="showMenu()">
+      <img src="IMAGES/close.png" class="close no-menu-display" onclick="showMenu()">
+    <section class="container-fluid navigation-header">
+        <div class="row wrapper">
+            <p class="logo col-sm-2 col-xs-12">
+                <img src="IMAGES/logo.png">
+            </p>
+            <div class="col-sm-10 col-xs-12">
+                <nav class="pull-right">
+                    <ul id="nav-menu">
+                        <li><a data-scroll href="#home">HOME</a></li>
+                        <li><a data-scroll href="#about">ABOUT US</a></li>
+                        <li><a data-scroll href="#solutions">SOLUTIONS</a></li>
+                        <li><a data-scroll href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a data-scroll href="#contact">CONTACT</a></li>
+                        <li><a data-scroll href="#contact">FOLLOW</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="banner col-xs-12 bgimg-1">
+        <div class="overlay flex">
+            <div class="main-logo">
+                <img src="IMAGES/logo.png">
+            </div>
+        </div>
+    </section>
+    <section class=" container-fluid about-us col-xs-12 container-fluid" id="about">
+        <h1><span>ABOUT US</span></h1>
+        <p>We Provide You the best services and make you confident about your product that your product is original and you will not be cheated by anyone. Its our resposbility that we can assure you about the quality of your product and its originality. Our research team has lot of experienced members who nare working on the same day and night just to ensure that your product is original.</p>
+        <p>Every person in the world should be able to know if the products they use are genuine or not. Our founders have spent their careers finding ways to protect products and have invented a truly secure mobile product authentication solution, so brand owners can fight counterfeiting and restore trust</p>
+    </section>
+    <section class="container trust">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 col-lg-3 col-xl-3 col-md-6">
+                <div class="box">
+                    <img src="IMAGES/lock.png">
+                    <h3>SECURE MOBILE AUTHENTICATION</h3>
+                    <p class="desc">
+                        <br> With the world’s first and only copy proof QR code in the market, Preventigo protects physical goods from counterfeiting. Preventigo Secure Codes contain a unique fingerprint, which even the best counterfeiters are not able to reproduce. Authentication is made with a mobile phone without the need for a special optic.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 col-lg-3 col-xl-3 col-md-6">
+                <div class="box">
+                    <img src="IMAGES/dollar.png">
+                    <h3>EASY & SCALABLE INTEGRATION</h3>
+                    <p class="desc">
+                        <br> Preventigo Secure QR codes are directly printed on your existing packaging, labels, or documents enabling a scalable cost structure. No special equipment, ink, paper required. Preventigo just works.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 col-lg-3 col-xl-3 col-md-6">
+                <div class="box">
+                    <img src="IMAGES/world.png">
+                    <h3>SUPPLY CHAIN ANALYTICS</h3>
+                    <p class="desc">
+                        <br> Preventigo’s cloud-based solution gives instant supply-chain visibility and allows full control of the supply and distribution chain. Identify counterfeit hotspots, prevent grey market goods, monitor distributors and gain insights on end-buyer behavior and demographic data.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 col-lg-3 col-xl-3 col-md-6">
+                <div class="box">
+                    <img src="IMAGES/user.png">
+                    <h3>O2O BASED ON TRUST</h3>
+                    <p class="desc">
+                        <br> Start a dialogue with your customer based on trust. Preventigo’s platform acts as a powerful trigger for customers who find your brand relevant, allowing you to understand the full picture and gain actionable insights. Keep your shoppers engaged at point of sale across channels, devices and platforms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="solutions" id="solutions">
+        <section class="our-solutions container-fluid bgimg-1">
+            <div class="overlay2"></div>
+            <div class="row tcenter">
+                <h2>OUR SOLUTION</h2>
+                <img src="IMAGES/briefcase.png" alt="solution" />
+            </div>
+            <div class="row flexme">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="our-solutions-child">
+                        <h3 class="tcenter">Implement</h3>
+                        <img src="IMAGES/implement.png">
+                        <span>
+                    The Preventigo printer portal allows packaging and label partners to receive orders from brand owners and integrate secure codes into existing automated product packaging and labeling methods.
+                </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="our-solutions-child">
+                        <h3 class="tcenter">Optimize</h3>
+                        <img src="IMAGES/optimize.png">
+                        <span>Scan-data is visualized on Preventigo’s online portal. Access real-time business intelligence to recognize patterns and maximize supply chain activity insights. Pro-actively secure your supply chain from the bottom up.
+                </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="our-solutions-child tcenter">
+                        <h3 class="tcenter">Protect</h3>
+                        <img src="IMAGES/protect.png">
+                        <span>Preventigo Secure QR Codes can be easily verified with smartphones through our mobile consumer and B2B apps. Each scan generates immediate data visualized on ScanTrust’s online portal. Users and the brand owner learn instantly when a counterfeit is detected.
+                </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="our-solutions-child">
+                        <h3 class="tcenter">Engage</h3>
+                        <img src="IMAGES/engage.png">
+                        <span>Enhance customer engagement with Preventigo’s mobile platform and scan analytics. Incentivize your customers to scan products and develop a relationship with your brand. Leverage your data to increase purchase intent at point-of-sale.
+                </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section>
+        <!-- Trigger the modal with a button (CODE FOR SHWING LOGIN SIGNUP FORM ON BUTTON CLICK)-->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div>
+                        <div id="loginbox" style="margin-top:150px;" class="mainbox col-md-12 col-sm-12">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <div class="panel-title">Sign In</div>
+                                    <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
+                                </div>
+
+                                <div style="padding-top:30px" class="panel-body">
+
+                                    <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                                    <form id="loginform" class="form-horizontal" role="form">
+                                        <div style="margin-bottom: 25px" class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">
+                                        </div>
+                                        <div style="margin-bottom: 25px" class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                        </div>
+                                        <div class="input-group">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div style="margin-top:10px" class="form-group">
+                                            <!-- Button -->
+
+                                            <div class="col-sm-12 controls">
+                                                <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                                                <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
+                                                <a id="btn-Gmail-login" href="#" class="btn btn-danger">Login with Gmail</a>
+                                                <a id="btn-Twitter-login" href="#" class="btn btn-info">Login with Twitter</a>
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 control">
+                                                <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                                                    Don't have an account!
+                                                    <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                                            Sign Up Here
+                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="signupbox" style="display:none; margin-top:150px" class="mainbox col-md-12 col-sm-12">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <div class="panel-title">Sign Up</div>
+                                    <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sign In</a></div>
+                                </div>
+                                <div class="panel-body">
+                                    <form id="signupform" class="form-horizontal" role="form">
+                                        <div id="signupalert" style="display:none" class="alert alert-danger">
+                                            <p>Error:</p>
+                                            <span></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="col-md-3 control-label">Email</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="email" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="firstname" class="col-md-3 control-label">First Name</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="firstname" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lastname" class="col-md-3 control-label">Last Name</label>
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="col-md-3 control-label">Password</label>
+                                            <div class="col-md-9">
+                                                <input type="password" class="form-control" name="passwd" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- Button -->
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                                <span style="margin-left:8px;">or</span>
+                                            </div>
+                                        </div>
+                                        <div style="border-top: 1px solid #999; padding-top:20px" class="form-group">
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button id="btn-fbsignup" type="button" style="margin-bottom: 10px;" class="btn btn-primary"><i class="icon-facebook"></i> � Sign Up with Facebook</button>
+                                                <br>
+                                                <button id="btn-fbsignup" type="button" style="margin-bottom: 10px;" class="btn btn-danger"><i class="icon-facebook"></i> � Sign Up with Gmail</button>
+                                                <br>
+                                                <button id="btn-fbsignup" type="button" class="btn btn-info" style="margin-bottom: 10px;"><i class="icon-facebook"></i> � Sign Up with Twitter</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial carousel -->
+    <section id="testimonials">
+        <section id="carousel">
+            <h2>Testimonials</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                                <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <div class="profile-circle"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <div class="profile-circle"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="active item">
+                                    <div class="profile-circle"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <div class="profile-circle"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <div class="profile-circle"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                                <div class="item">
+                                    <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- contact us -->
+    <section class="contact-us bgimg-1" id="contact">
+        <div class="overlay3"></div>
+        <h2 class="col-sm-12">CONTACT US</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <div class="well well-sm message-box">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Email Address</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">
+                                            Subject</label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="na" selected="">Choose One:</option>
+                                            <option value="service">General Customer Service</option>
+                                            <option value="suggestions">Suggestions</option>
+                                            <option value="product">Product Support</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                        Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <form class="company-addr">
+                        <legend><span class="glyphicon glyphicon-globe"></span> Our Office</legend>
+                        <address>
+                <strong>Preventigo, Inc.</strong><br>
+                795 Indirapuram, Delhi 600<br>
+                New Delhi, NA 94107<br>
+                <abbr title="Phone">
+                    P:</abbr>
+                1234567890
+            </address>
+                        <address>
+                <strong>Mail me at:</strong><br>
+                <a href="mailto:#">AnujPreventigo@gmail.com</a>
+            </address>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Pulling Awesome Font -->
+    <section>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="col-md-12 social-icons">
+            <ul class="social-network social-circle">
+                <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <p>copyright&copy Preventigo 2017. All rights reserved.</p>
+        </div>
+    </section>
+    <script src="JS/autoChange.js"></script>
+    <script src="JS/smooth-scroll.js"></script>
+    <script src="JS/hamburger.js"></script>
+    <script>
+        smoothScroll.init();
+    </script>
+</body>
