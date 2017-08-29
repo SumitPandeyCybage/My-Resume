@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: #000;
-    height: 5vh;
+    height: 50px;
     padding: 5px;
 }
 
@@ -122,7 +122,7 @@ burger,
 
 .navigation-header {
     background-color: #7d7b7a;
-    height: 10vh;
+    height: 100px;
     padding: 30px 10px;
 }
 
@@ -154,6 +154,7 @@ nav ul li {
     padding: 10px 10px;
     position: relative;
     transition: color .5s;
+    border-bottom: 1px solid #7d7b7a;
 }
 
 nav li:hover {
@@ -503,7 +504,7 @@ a.socialIcon:hover,
 
 .social-icons p {
     color: #fff;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 a,
@@ -532,17 +533,19 @@ a,
 .submitbtn {
     margin-top: 0;
 }
+
 .burger,
-    .close {
-        height: 30px;
-        position: absolute;
-        right: 30px;
-        top: 78px;
-        width: 30px;
-        background-size: contain;
-        display: none;
-        z-index:99999;
-    }
+.close {
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 78px;
+    width: 30px;
+    background-size: contain;
+    display: none;
+    z-index: 99999;
+}
+
 @media only screen and (min-width: 1200px) {
     .box {
         height: 430px;
@@ -553,6 +556,9 @@ a,
     .box {
         height: 340px;
     }
+    .main-logo img {
+        width: 350px;
+    }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 770px) {
@@ -562,8 +568,6 @@ a,
     .social-icon {
         display: none;
     }
-    
-    
     .burger {
         display: block;
     }
@@ -578,15 +582,20 @@ a,
         color: #fff;
         width: 100%;
         padding: 0;
+        top: 25px;
         text-align: center;
         position: absolute;
         left: 10px;
-    z-index: 999;
+        z-index: 999;
+            border: 1px solid #7d7b7a;
     }
     nav ul li a {
         color: #fff;
     }
     nav ul li {
         display: block;
+    }
+    .main-logo img {
+        width: 290px;
     }
 }
